@@ -1,4 +1,4 @@
-  {
+{
   "name": "@hexlet/code",
   "version": "1.0.0",
   "bin": {
@@ -25,5 +25,8 @@
     "url": "https://github.com/E1L2D/frontend-project-44/issues",
     "email": "tayarov12@gmail.com"
   },
-  "homepage": "https://github.com/E1L2D/frontend-project-44#readme"
+  "homepage": "https://github.com/E1L2D/frontend-project-44#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
