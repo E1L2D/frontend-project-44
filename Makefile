@@ -9,3 +9,6 @@ publish: # publish a package
 
 lint: # launching eslint
 	npx eslint .
+
+brain-even: # launching the 'brain-even'
+	node bin/brain-even.js
