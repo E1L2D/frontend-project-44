@@ -34,4 +34,3 @@ export default () => {
 
   console.log(`Congratulations, ${userName}!`);
 };
-git;
