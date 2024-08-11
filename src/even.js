@@ -9,16 +9,16 @@ export default () => {
 
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
-  const getRandomInt = () => Math.floor(Math.random() * 10);
-  const number = getRandomInt();
-
-  const isEven = (num) => num % 2 === 0;
-  const correctAnswer = isEven(number) ? 'yes' : 'no';
-
   const countRound = 3;
 
   for (let i = 0; i < countRound; i += 1) {
-    console.log(`Question: ${getRandomInt()}`);
+    const getRandomInt = () => Math.floor(Math.random() * 10);
+    const number = getRandomInt();
+
+    const isEven = (num) => num % 2 === 0;
+    const correctAnswer = isEven(number) ? 'yes' : 'no';
+
+    console.log(`Question: ${number}`);
 
     const userAnswer = readlineSync.question('Your answer: ');
 
