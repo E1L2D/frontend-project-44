@@ -1,11 +1,13 @@
-export default () => {
-  console.log('What is the result of the expression?');
+import getStart from '../index.js';
 
+const descriptionOfTheGame = 'What is the result of the expression?';
+
+const generateRound = () => {
+  const operators = ['-', '+', '*'];
   const getRandomOperator = () => {
     return Math.floor(Math.random() * operators.length);
   };
   const index = getRandomOperator();
-  const operators = ['-', '+', '*'];
   const operator = operators[index];
 
   const getRandomInt = () => Math.ceil(Math.random() * 10);
@@ -13,7 +15,7 @@ export default () => {
   const number2 = getRandomInt();
 
   const RandomMathOperation = () => `${number1} ${operator} ${number2}`;
-  const operation = RandomMathOperation();
+  const question = RandomMathOperation();
 
   const answer = () => {
     switch (operator) {
@@ -25,8 +27,8 @@ export default () => {
         return number1 * number2;
     }
   };
-
   const correctAnswer = answer();
-
-  console.log(`Question: ${operation}`);
+  return [question, correctAnswer];
 };
+
+export default () => getStart(descriptionOfTheGame, generateRound);
