@@ -4,9 +4,8 @@ const descriptionOfTheGame = 'What is the result of the expression?';
 
 const generateRound = () => {
   const operators = ['-', '+', '*'];
-  const getRandomOperator = () => {
-    return Math.floor(Math.random() * operators.length);
-  };
+  const getRandomOperator = () => Math.floor(Math.random() * operators.length);
+
   const index = getRandomOperator();
   const operator = operators[index];
 
