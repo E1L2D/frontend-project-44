@@ -1,6 +1,6 @@
 import getStart from '../index.js';
 
-const descriptionOfTheGame = 'What is the result of the expression?';
+const gameDescription = 'What is the result of the expression?';
 
 const generateRound = () => {
   const operators = ['-', '+', '*'];
@@ -30,4 +30,4 @@ const generateRound = () => {
   return [question, correctAnswer];
 };
 
-export default () => getStart(descriptionOfTheGame, generateRound);
+export default () => getStart(gameDescription, generateRound);

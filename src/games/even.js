@@ -1,6 +1,6 @@
 import getStart from '../index.js';
 
-const descriptionOfTheGame =
+const gameDescription =
   'Answer "yes" if the number is even, otherwise answer "no".';
 
 const generateRound = () => {
@@ -12,4 +12,4 @@ const generateRound = () => {
   return [question, correctAnswer];
 };
 
-export default () => getStart(descriptionOfTheGame, generateRound);
+export default () => getStart(gameDescription, generateRound);

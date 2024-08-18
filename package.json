@@ -5,7 +5,8 @@
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
     "brain-calc": "bin/brain-calc.js",
-    "brain-gcd": "bin/brain-gcd.js"
+    "brain-gcd": "bin/brain-gcd.js",
+    "brain-progression": "bin/brain-progression.js"
   },
   "description": "5 Brain-Training Games",
   "main": "index.js",
@@ -30,6 +31,7 @@
   },
   "homepage": "https://github.com/E1L2D/frontend-project-44#readme",
   "dependencies": {
+    "brain-even": "^0.1.12",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {

@@ -1,7 +1,6 @@
 import getStart from '../index.js';
 
-const descriptionOfTheGame =
-  'Find the greatest common divisor of given numbers.';
+const gameDescription = 'Find the greatest common divisor of given numbers.';
 
 const generateRound = () => {
   const getRandomInt = () => Math.ceil(Math.random() * 10);
@@ -29,4 +28,4 @@ const generateRound = () => {
   return [question, correctAnswer];
 };
 
-export default () => getStart(descriptionOfTheGame, generateRound);
+export default () => getStart(gameDescription, generateRound);
