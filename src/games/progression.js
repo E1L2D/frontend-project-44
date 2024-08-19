@@ -23,10 +23,9 @@ const generateRound = () => {
 
   let progression = getProgression();
   const missingSymbol = progression.splice(2, 1, '..').join('');
-  const correctAnswer = missingSymbol;
 
-  progression = progression.join(' ');
-  const question = progression;
+  const correctAnswer = missingSymbol;
+  const question = progression.join(' ');
   return [question, correctAnswer];
 };
 

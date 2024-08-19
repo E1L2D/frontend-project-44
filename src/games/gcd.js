@@ -7,7 +7,6 @@ const generateRound = () => {
   const number1 = getRandomInt();
   const number2 = getRandomInt();
   const randomNumbers = [number1, number2];
-  const question = randomNumbers.join(' ');
 
   const getGreatestCommonDivisor = (num1, num2) => {
     let remainder;
@@ -25,6 +24,7 @@ const generateRound = () => {
   };
 
   const correctAnswer = getGreatestCommonDivisor(number1, number2);
+  const question = randomNumbers.join(' ');
   return [question, correctAnswer];
 };
 

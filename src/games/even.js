@@ -5,10 +5,16 @@ const gameDescription =
 
 const generateRound = () => {
   const getRandomInt = () => Math.floor(Math.random() * 10);
-  const question = getRandomInt();
+  const number = getRandomInt();
 
-  const isEven = (num) => num % 2 === 0;
-  const correctAnswer = isEven(question) ? 'yes' : 'no';
+  const isEven = () => number % 2 === 0;
+  const check = () => {
+    const result = isEven(number) ? 'yes' : 'no';
+    return result;
+  };
+
+  const correctAnswer = check();
+  const question = number;
   return [question, correctAnswer];
 };
 

@@ -14,7 +14,6 @@ const generateRound = () => {
   const number2 = getRandomInt();
 
   const RandomMathOperation = () => `${number1} ${operator} ${number2}`;
-  const question = RandomMathOperation();
 
   const answer = () => {
     switch (operator) {
@@ -26,7 +25,9 @@ const generateRound = () => {
         return number1 * number2;
     }
   };
+
   const correctAnswer = answer();
+  const question = RandomMathOperation();
   return [question, correctAnswer];
 };
 
