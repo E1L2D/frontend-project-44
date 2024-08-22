@@ -4,25 +4,30 @@
 
 <h1 align="center">Welcome to the Brain games!</h1>
 
-An example of installing and running the game 'brain-even':
+## What is this?
+
+«Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново.
+
+### Brain-even
+An example of running the game:
 https://asciinema.org/a/brWF6FreUW0JCM5JABX8pteQX
 
 ---
-
-An example of installing and running the game 'brain-calc':
+### Brain-calc
+An example of running the game:
 https://asciinema.org/a/k0woTStPlx6tUmua4r48fxeh3
 
 ---
-
-An example of installing and running the game 'brain-gcd':
+### Brain-gcd
+An example of running the game:
 https://asciinema.org/a/0M45PBsnpVtsP0CxD5D5Ycz63
 
 ---
-
-An example of installing and running the game 'brain-progression':
+### Brain-progression
+An example of running the game:
 https://asciinema.org/a/9j70AVzHCcnQaShY04TZu15kn
 
 ---
-
-An example of installing and running the game 'brain-prime':
+### Brain-prime
+An example of running the game:
 https://asciinema.org/a/44dGMCuL0VNhgKyNYOI1JzrYB
