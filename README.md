@@ -8,22 +8,39 @@
 
 Brain Games is a set of five console games based on the principle of popular mobile brain training applications. In each game, questions are asked that need to be answered correctly. After three correct answers, it is considered that the game is over. Incorrect answers end the game and offer to go through it again.
 
+
 ### Brain-even
+
+```bash
+$ npm install brain-even
+```
 An example of running the game:
 https://asciinema.org/a/brWF6FreUW0JCM5JABX8pteQX
 
 ---
 ### Brain-calc
+
+```bash
+$ npm install brain-even
+```
 An example of running the game:
 https://asciinema.org/a/k0woTStPlx6tUmua4r48fxeh3
 
 ---
 ### Brain-gcd
+
+```bash
+$ npm install brain-even
+```
 An example of running the game:
 https://asciinema.org/a/0M45PBsnpVtsP0CxD5D5Ycz63
 
 ---
 ### Brain-progression
+
+```bash
+$ npm install brain-even
+```
 An example of running the game:
 https://asciinema.org/a/9j70AVzHCcnQaShY04TZu15kn
 
