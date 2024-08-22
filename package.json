@@ -32,7 +32,6 @@
   },
   "homepage": "https://github.com/E1L2D/frontend-project-44#readme",
   "dependencies": {
-    "brain-even": "^0.1.12",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
