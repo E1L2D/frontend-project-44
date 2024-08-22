@@ -16,14 +16,21 @@ const generateRound = () => {
   const RandomMathOperation = () => `${number1} ${operator} ${number2}`;
 
   const answer = () => {
+    let result = '';
     switch (operator) {
       case '+':
-        return number1 + number2;
+        result = number1 + number2;
+        break;
       case '-':
-        return number1 - number2;
+        result = number1 - number2;
+        break;
       case '*':
-        return number1 * number2;
+        result = number1 * number2;
+        break;
+      default:
+        throw new Error(`Unknown operator: '${operator}!`);
     }
+    return result;
   };
 
   const correctAnswer = answer();

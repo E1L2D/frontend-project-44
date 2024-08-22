@@ -8,19 +8,15 @@ const generateRound = () => {
   const number2 = getRandomInt(0, 10);
   const randomNumbers = [number1, number2];
 
-  const getGreatestCommonDivisor = (num1, num2) => {
-    let remainder;
-    if (num1 > num2) {
-      while (num2 !== 0) {
-        remainder = num2;
-        num2 = num1 % num2;
-        num1 = remainder;
-      }
+  const getGreatestCommonDivisor = (a, b) => {
+    let num1 = a;
+    let num2 = b;
+    while (num2 !== 0) {
+      const temp = num2;
+      num2 = num1 % num2;
+      num1 = temp;
     }
-    if (num1 < num2) {
-      return getGreatestCommonDivisor(num2, num1);
-    }
-    return remainder;
+    return Math.abs(num1);
   };
 
   const correctAnswer = getGreatestCommonDivisor(number1, number2);
