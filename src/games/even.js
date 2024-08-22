@@ -1,11 +1,11 @@
 import getStart from '../index.js';
+import getRandomInt from '../randomInt.js';
 
 const gameDescription =
   'Answer "yes" if the number is even, otherwise answer "no".';
 
 const generateRound = () => {
-  const getRandomInt = () => Math.floor(Math.random() * 10);
-  const number = getRandomInt();
+  const number = getRandomInt(0, 10);
 
   const isEven = () => number % 2 === 0;
   const check = () => {

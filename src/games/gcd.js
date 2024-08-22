@@ -1,11 +1,11 @@
 import getStart from '../index.js';
+import getRandomInt from '../randomInt.js';
 
 const gameDescription = 'Find the greatest common divisor of given numbers.';
 
 const generateRound = () => {
-  const getRandomInt = () => Math.ceil(Math.random() * 10);
-  const number1 = getRandomInt();
-  const number2 = getRandomInt();
+  const number1 = getRandomInt(0, 10);
+  const number2 = getRandomInt(0, 10);
   const randomNumbers = [number1, number2];
 
   const getGreatestCommonDivisor = (num1, num2) => {

@@ -1,4 +1,5 @@
 import getStart from '../index.js';
+import getRandomInt from '../randomInt.js';
 
 const gameDescription = 'What is the result of the expression?';
 
@@ -9,9 +10,8 @@ const generateRound = () => {
   const index = getRandomOperator();
   const operator = operators[index];
 
-  const getRandomInt = () => Math.ceil(Math.random() * 10);
-  const number1 = getRandomInt();
-  const number2 = getRandomInt();
+  const number1 = getRandomInt(0, 10);
+  const number2 = getRandomInt(0, 10);
 
   const RandomMathOperation = () => `${number1} ${operator} ${number2}`;
 
