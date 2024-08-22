@@ -3,7 +3,6 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/4393bb92ff072fbe0b4d/maintainability)](https://codeclimate.com/github/E1L2D/frontend-project-44/maintainability)
 
 <h1 align="center">Welcome to the Brain games!</h1>
----
 
 An example of installing and running the game 'brain-even':
 https://asciinema.org/a/brWF6FreUW0JCM5JABX8pteQX
