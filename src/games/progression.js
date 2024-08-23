@@ -1,5 +1,5 @@
-import getStart from '../index.js';
-import getRandomInt from '../randomInt.js';
+import launchGame from '../index.js';
+import getRandomInt from '../utils.js';
 
 const gameDescription = 'What number is missing in the progression?';
 
@@ -21,7 +21,8 @@ const generateRound = () => {
 
   const correctAnswer = missingSymbol;
   const question = progression.join(' ');
+
   return [question, correctAnswer];
 };
 
-export default () => getStart(gameDescription, generateRound);
+export default () => launchGame(gameDescription, generateRound);
