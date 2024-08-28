@@ -23,7 +23,7 @@ An example of running the game:
 $ brain-calc
 ```
 An example of running the game:
-https://asciinema.org/a/k0woTStPlx6tUmua4r48fxeh3
+[![asciicast](https://asciinema.org/a/k0woTStPlx6tUmua4r48fxeh3.svg)](https://asciinema.org/a/k0woTStPlx6tUmua4r48fxeh3)
 
 ---
 ### Brain-gcd
@@ -32,7 +32,7 @@ https://asciinema.org/a/k0woTStPlx6tUmua4r48fxeh3
 $ brain-gcd
 ```
 An example of running the game:
-https://asciinema.org/a/0M45PBsnpVtsP0CxD5D5Ycz63
+[![asciicast](https://asciinema.org/a/0M45PBsnpVtsP0CxD5D5Ycz63.svg)](https://asciinema.org/a/0M45PBsnpVtsP0CxD5D5Ycz63)
 
 ---
 ### Brain-progression
@@ -41,7 +41,7 @@ https://asciinema.org/a/0M45PBsnpVtsP0CxD5D5Ycz63
 $ brain-progression
 ```
 An example of running the game:
-https://asciinema.org/a/9j70AVzHCcnQaShY04TZu15kn
+[![asciicast](https://asciinema.org/a/9j70AVzHCcnQaShY04TZu15kn.svg)](https://asciinema.org/a/9j70AVzHCcnQaShY04TZu15kn)
 
 ---
 ### Brain-prime
@@ -50,7 +50,7 @@ https://asciinema.org/a/9j70AVzHCcnQaShY04TZu15kn
 $ brain-prime
 ```
 An example of running the game:
-https://asciinema.org/a/44dGMCuL0VNhgKyNYOI1JzrYB
+[![asciicast](https://asciinema.org/a/44dGMCuL0VNhgKyNYOI1JzrYB.svg)](https://asciinema.org/a/44dGMCuL0VNhgKyNYOI1JzrYB)
 
 ## Requirements
 Node.js v13.2.0
