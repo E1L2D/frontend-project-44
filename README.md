@@ -8,6 +8,14 @@
 
 Brain Games is a set of five console games based on the principle of popular mobile brain training applications. In each game, questions are asked that need to be answered correctly. After three correct answers, it is considered that the game is over. Incorrect answers end the game and offer to go through it again.
 
+## Installation
+
+Clone repository:
+```bash
+git@github.com:E1L2D/frontend-project-44.git
+```
+after installation, you can use the `make install` command to install dependencies.
+
 ### Brain-even
 
 ```bash
