@@ -16,6 +16,11 @@ git@github.com:E1L2D/frontend-project-44.git
 ```
 after installation, you can use the `make install` command to install dependencies.
 
+Complete the installation (you may need sudo):
+```bash
+npm link 
+```
+
 ## Run
 
 ### Brain-even
