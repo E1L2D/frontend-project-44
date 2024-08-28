@@ -14,7 +14,7 @@ Brain Games is a set of five console games based on the principle of popular mob
 $ brain-even
 ```
 An example of running the game:
-[![asciicast](https://asciinema.org/a/brWF6FreUW0JCM5JABX8pteQX.svg)](https://asciinema.org/a/brWF6FreUW0JCM5JABX8pteQX])
+[![asciicast](https://asciinema.org/a/brWF6FreUW0JCM5JABX8pteQX.svg)](https://asciinema.org/a/brWF6FreUW0JCM5JABX8pteQX)
 
 ---
 ### Brain-calc
